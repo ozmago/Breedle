@@ -12,15 +12,25 @@ body {
     max-width: 100%;
     height: auto;
     border: 2px solid #000;
+    display: block;
+    /* Ensures the image is on its own line */
+    margin: 0 auto;
+    /* Centers the image */
 }
 
 #userGuess {
-    margin-top: 20px;
+    display: block;
+    /* Puts the input on its own line */
+    margin: 20px auto;
+    /* Centers the input and provides space above */
     padding: 10px;
     width: 200px;
 }
 
 button {
-    margin-left: 10px;
+    display: block;
+    /* Puts the button on its own line */
+    margin: 0 auto;
+    /* Centers the button */
     padding: 10px;
 }
