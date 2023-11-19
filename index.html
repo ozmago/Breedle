@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breedle</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onload="loadRandomDogImage()">
+    <div class="game-container">
+      <h1>Breedle 🐶</h1>
+      <img id="dogImage" src="" alt="Guess the breed" />
+      <input type="text" id="userGuess" placeholder="Enter your guess here" />
+      <button onclick="checkGuess()">Guess</button>
+      <p id="result"></p>
+      <h3>Play other games like BlaBlaBla</h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
